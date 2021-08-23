@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*fuentes*/
+
+@font-face {
+    font-family: lora-medium;
+    src: url(fonts/lora/Lora-Medium.ttf) format(ttf);
+}
+
+@font-face {
+    font-family: open-sans-regular;
+    src: url(fonts/Open-Sans/OpenSans-Regular.ttf) format(ttf);
+
+}
+/*body*/
+body {
+    background-image: url(images/fondo-web.jpg);
+}
+
+
+/*estilos del header*/
+
+.encabezado {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:  100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size:  3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*fin header*/
+
+/*estilos del menu*/
+.menu-principal {
+    background-color: black;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    
+    
+    
+    
+    
+    
+}
+.menu-navegable {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    list-style: none;
+    z-index: 99999999;
+    font-family: open-sans-regular;
+    
+    
+}
+
+main nav ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    
+    
+}
+
+nav ul li a:hover {
+    background-color: rgba(204, 187, 187, 0.493);
+    color: white;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: black;
+    padding: 0;
+    z-index: 20000;
+    
+}
+
+nav li:hover > ul {
+    display: block;
+    
+}
+
+main nav > li {
+    float: left;
+}
+
+
+/*fin menu*/
+
+/*baner*/
+
+.baner {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/*fin baner*/
+ 
+/*seccion inicio*/
+
+.inicio {
+    display: grid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+
+}
+
+.imagenes img {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.parrafo1 {
+   font-family: open-sans-regular;
+   font-size: 2.5rem;
+   color: white;
+   padding: 1rem 1rem 1rem 1rem;
+   background-color: black;
+}
+
+/*fin seccion inicio*/
+
+/*seccion normas*/
+
+.normas {
+    background-color: black;
+    width: 100%;
+    
+    
+    
+}
+
+.titulos {
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+
+.lista-normas {
+    color: white;
+    font-size: 2rem;
+    padding-left: 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    font-family: open-sans-regular;
+    
+    
+}
+
+/*fin seccion normas*/
+
+/*footer*/
+
+footer {
+    background-image: linear-gradient(black, gray);
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+footer nav ul {
+    display: flex;
+    padding: 2rem 2rem 2rem 2rem;
+    justify-content: space-around;
+}
+
+footer nav ul li a {
+    font-size: 2rem;
+    color: gray;
+    
+}
+
+
+
+.telefono {
+    font-size: 2rem;
+    color: gray;
+    list-style: none;
+}
+
+.mapa {
+    width: 100%;
+}
+
+
+    
+/*estilos de la seccion carta*/
+
+
+
+
+table {
+    margin: 1rem;
+    font-family: 'Archivo Narrow', sans-serif;
+ font-size: 2rem;
+ padding-right: 2rem;
+ padding-left: 2rem;
+ background-color: black;
+ color: white;
+ text-align: left;
+ border: solid #c0c0c0;
+ width: 90%;
+ 
+}
+.imagenes-carta {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*fin carta*/
+
+
+/*estilos de la seccion tienda*/
+
+.remeras {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450px 40px 40px;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    grid-gap: 0.5rem;
+    width: 100%;
+    
+}
+
+.imagenes-tienda {
+    width: 100%;
+    transition: all 0.8s;
+}
+
+.imagenes-tienda:hover {
+    transform: scale(1.2);
+}
+
+.cerveza-tienda {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450px 40px 40px;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    grid-gap: 0.5rem;
+    width: 100%;
+
+}
+
+.gorras {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 450px 40px 40px;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    grid-gap: 0.5rem;
+    width: 100%;
+}
+
+.mensaje {
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-family: open-sans-regular;
+    padding: 1rem;
+}
+
+
+
