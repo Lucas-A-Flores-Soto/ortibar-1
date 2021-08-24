@@ -1,1 +1,17 @@
-@import "../base/variables"
+@import "../base/variables";
+@import "../base/extends";
+
+header {
+    background-color: black;
+    width: $ancho;
+    @extend %display-flex-center;
+    
+    .encabezado {
+        color: $color-secundario;
+        font-size: $font-size-encabezado;
+        font-family: $font-family-encabezado;
+     
+        
+    }
+}
+
