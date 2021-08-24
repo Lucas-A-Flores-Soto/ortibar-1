@@ -1,0 +1,57 @@
+@import "../base/variables";
+@import "../base/extends";
+
+.menu-principal {
+    background-color: $color-principal;
+    display: flex;
+    justify-content: space-around;
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+
+    .menu-navegable {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        font-family: open-sans-regular;
+        width: $ancho;
+        
+       
+        
+        a {
+            font-size: 2rem;
+    text-decoration: none;
+    color: $color-secundario;
+    padding: nth($pading-1, 1);
+    display: block;
+
+    &:hover {
+        background-color: $color-hover;
+        color: $color-secundario;
+    }
+    }
+    
+    
+            
+            
+           
+        }
+        
+    }
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: $color-principal;
+    padding: 0;
+    z-index: 20000;
+    
+}
+
+

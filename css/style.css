@@ -13,4 +13,47 @@ header .encabezado {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-principal {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.menu-principal nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.menu-principal .menu-navegable {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: open-sans-regular;
+  width: 100%;
+}
+.menu-principal .menu-navegable a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+.menu-principal .menu-navegable a:hover {
+  background-color: rgba(204, 187, 187, 0.493);
+  color: white;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: black;
+  padding: 0;
+  z-index: 20000;
+}
+
 /*# sourceMappingURL=style.css.map */
