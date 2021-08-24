@@ -56,4 +56,8 @@ header {
   z-index: 20000;
 }
 
+nav li:hover > ul {
+  display: block;
+}
+
 /*# sourceMappingURL=style.css.map */
