@@ -1,0 +1,75 @@
+@import "../base/variables";
+
+/*media queries menu*/
+
+/*Celular*/
+@media screen and (max-width: 425px) {
+
+    .encabezado {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+
+    .menu-navegable {
+        display: none;
+    }
+    
+    iframe {
+        display: none;
+    
+    }
+
+    .imagenes-carta {
+        display: none;
+    }
+
+    .contacto {
+        padding: 1rem;
+    }
+}
+
+/*tablet*/
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    
+    .encabezado {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+
+    .menu-navegable {
+        display: none;
+    }
+    
+    iframe {
+        display: none;
+    }
+
+
+
+}
+/*desktop*/
+@media screen and (min-width: 769px) {
+    .menu-mobile {
+        display: none;
+    }
+
+}
+
+.mobile-font {
+    font-family: $font-family-encabezado;
+    font-size: 2rem;
+}
+
