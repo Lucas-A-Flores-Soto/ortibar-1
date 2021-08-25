@@ -97,4 +97,26 @@ nav li:hover > ul {
   background-color: black;
 }
 
+.normas {
+  display: grid;
+  width: 100%;
+}
+.normas .titulos {
+  font-size: 3rem;
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin-top: 1rem;
+}
+.normas .lista-normas {
+  color: white;
+  font-size: 2rem;
+  padding-left: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  font-family: open-sans-regular;
+  background-color: black;
+  list-style: none;
+}
+
 /*# sourceMappingURL=style.css.map */

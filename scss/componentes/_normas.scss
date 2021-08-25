@@ -1,0 +1,28 @@
+@import "../base/variables";
+
+.normas {
+    display: grid;
+    width: $ancho;
+
+    .titulos {
+        font-size: 3rem;
+    color: $color-secundario;
+    background-color: $color-principal;
+    text-align: center;
+    margin-top: 1rem;
+
+    
+     }
+     .lista-normas {
+        color: $color-secundario;
+        font-size: 2rem;
+        padding-left: 1rem;
+        display: grid;
+        grid-gap: 1rem;
+        font-family: open-sans-regular;
+        background-color: $color-principal;
+        list-style: none;
+        
+    }
+    }
+
