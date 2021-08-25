@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /*fuentes*/
+  
+  @font-face {
+    font-family: lora-medium;
+    src: url(../../fonts/lora/Lora-Medium.ttf) format(ttf);
+  }
+  
+  @font-face {
+    font-family: open-sans-regular;
+    src: url(../../fonts/Open-Sans/OpenSans-Regular.ttf) format(ttf);
+  
+  }
+  /*body*/
+  body {
+    background-image: url(../images/fondo-web.png)
+  }

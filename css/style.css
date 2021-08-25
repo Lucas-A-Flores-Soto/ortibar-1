@@ -1,3 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*fuentes*/
+@font-face {
+  font-family: lora-medium;
+  src: url(../../fonts/lora/Lora-Medium.ttf) format(ttf);
+}
+@font-face {
+  font-family: open-sans-regular;
+  src: url(../../fonts/Open-Sans/OpenSans-Regular.ttf) format(ttf);
+}
+/*body*/
+body {
+  background-image: url(../images/fondo-web.png);
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -58,6 +77,24 @@ header {
 
 nav li:hover > ul {
   display: block;
+}
+
+.inicio {
+  display: grid;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+.inicio .imagenes img {
+  width: 100%;
+  padding-top: 1rem;
+}
+.inicio .parrafo1 {
+  font-family: open-sans-regular;
+  font-size: 2.5rem;
+  color: white;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
