@@ -1,0 +1,39 @@
+@import "../base/variables";
+
+/*footer*/
+
+.footer1 {
+    background-image: $background-footer;
+    width: $ancho;
+    margin-top: 1rem;
+    
+    nav {
+        .contacto {
+            display: flex;
+            padding: 2rem 2rem 2rem 2rem;
+            justify-content: space-around;
+            list-style: none;
+            font-size: 2rem;
+            color: gray;
+            
+
+            a {
+                color: gray;
+                &:hover {
+                    background-color: $color-hover;
+                    color: $color-secundario;
+                }
+            }
+        }
+    }
+
+    .mapa {
+        width: $ancho;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+/*fin footer*/

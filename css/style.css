@@ -22,6 +22,7 @@ header {
   justify-content: center;
 }
 
+/*header*/
 header {
   background-color: black;
   width: 100%;
@@ -32,11 +33,13 @@ header .encabezado {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+/*fin header*/
 header {
   display: flex;
   justify-content: center;
 }
 
+/*seccion menu*/
 .menu-principal {
   background-color: black;
   display: flex;
@@ -79,6 +82,8 @@ nav li:hover > ul {
   display: block;
 }
 
+/*fin menu*/
+/*seccion inicio*/
 .inicio {
   display: grid;
   padding-top: 1rem;
@@ -97,6 +102,8 @@ nav li:hover > ul {
   background-color: black;
 }
 
+/*fin seccion inicio*/
+/*normas*/
 .normas {
   display: grid;
   width: 100%;
@@ -118,5 +125,35 @@ nav li:hover > ul {
   background-color: black;
   list-style: none;
 }
+
+/*fin normas*/
+/*footer*/
+.footer1 {
+  background-image: linear-gradient(black, gray);
+  width: 100%;
+  margin-top: 1rem;
+}
+.footer1 nav .contacto {
+  display: flex;
+  padding: 2rem 2rem 2rem 2rem;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 2rem;
+  color: gray;
+}
+.footer1 nav .contacto a {
+  color: gray;
+}
+.footer1 nav .contacto a:hover {
+  background-color: rgba(204, 187, 187, 0.493);
+  color: white;
+}
+.footer1 .mapa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*fin footer*/
 
 /*# sourceMappingURL=style.css.map */
