@@ -1,0 +1,36 @@
+@import "../base/variables";
+/*carta*/
+
+.titulos {
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.conten-carta {
+    width: 99%;
+    border: solid white;
+    background-color: $color-principal;
+    
+   
+    .cabeza-tabla {
+        
+        color: $color-secundario;
+        font-size: 2rem;
+      display: flex;
+      justify-content: space-around;
+       
+
+    }
+
+    .productos-1 {
+        color: $color-secundario;
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-around;
+      
+    }
+
+}
