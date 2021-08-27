@@ -1,0 +1,11 @@
+@import "../base/variables";
+/*baner*/
+
+.baner {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    width: $ancho;
+}
+
+/*fin baner*/
