@@ -44,6 +44,9 @@ header {
   background-color: black;
   display: flex;
   justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 .menu-principal nav {
   display: flex;
@@ -147,6 +150,15 @@ nav li:hover > ul {
   font-size: 2rem;
 }
 
+/*baner*/
+.baner {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+/*fin baner*/
 /*seccion inicio*/
 .inicio {
   display: grid;
