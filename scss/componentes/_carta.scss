@@ -7,20 +7,24 @@
     background-color: black;
     text-align: center;
     margin-top: 1rem;
+    display: grid;
 }
 
 .conten-carta {
     width: 99%;
     border: solid white;
     background-color: $color-principal;
+    display: flex;
+    justify-content: space-around;
     
+  
    
     .cabeza-tabla {
         
         color: $color-secundario;
         font-size: 2rem;
-      display: flex;
-      justify-content: space-around;
+      
+     
        
 
     }
@@ -28,8 +32,8 @@
     .productos-1 {
         color: $color-secundario;
         font-size: 2rem;
-        display: flex;
-        justify-content: space-around;
+       
+        
       
     }
 

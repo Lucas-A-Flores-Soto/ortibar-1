@@ -32,6 +32,20 @@
     .contacto {
         padding: 1rem;
     }
+
+    .conten-carta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .cabeza-tabla {
+            display: none;
+        }
+    }
+       
+       
+
+
 }
 
 /*tablet*/
@@ -57,8 +71,15 @@
         display: none;
     }
 
-
-
+    .conten-carta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .cabeza-tabla {
+            display: none;
+        }
+    }
 }
 /*desktop*/
 @media screen and (min-width: 769px) {
