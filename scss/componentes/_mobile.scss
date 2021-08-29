@@ -35,6 +35,25 @@
     .imagenes-carta {
         display: none;
     }
+     
+    .conten-carta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .cabeza-tabla {
+            display: none;
+        }
+
+        .productos-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: solid white;
+            width: $ancho;
+        }
+    }
+
 
     .remeras, .cerveza-tienda, .gorras {
         display: flex;
@@ -42,6 +61,19 @@
         flex-wrap: wrap;
     }
 
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    
+    }
+
+    .telefono {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
 
@@ -70,6 +102,25 @@
 
     .imagenes-carta {
         display: none;
+    }
+
+       
+    .conten-carta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .cabeza-tabla {
+            display: none;
+        }
+
+        .productos-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: solid white;
+            width: $ancho;
+        }
     }
 
     .remeras, .cerveza-tienda, .gorras {
