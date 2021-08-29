@@ -32,18 +32,15 @@
     .contacto {
         padding: 1rem;
     }
+    .imagenes-carta {
+        display: none;
+    }
 
-    .conten-carta {
+    .remeras, .cerveza-tienda, .gorras {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
-        .cabeza-tabla {
-            display: none;
-        }
+        flex-wrap: wrap;
     }
-       
-       
 
 
 }
@@ -71,14 +68,14 @@
         display: none;
     }
 
-    .conten-carta {
+    .imagenes-carta {
+        display: none;
+    }
+
+    .remeras, .cerveza-tienda, .gorras {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
-        .cabeza-tabla {
-            display: none;
-        }
+        flex-wrap: wrap;
     }
 }
 /*desktop*/

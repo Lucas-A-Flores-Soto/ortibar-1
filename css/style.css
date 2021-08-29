@@ -17,6 +17,14 @@ body {
   background-image: url(../images/fondo-web.png);
 }
 
+.gorras, .cerveza-tienda, .remeras {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -34,6 +42,14 @@ header .encabezado {
 }
 
 /*fin header*/
+.gorras, .cerveza-tienda, .remeras {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -117,13 +133,14 @@ nav li:hover > ul {
     padding: 1rem;
   }
 
-  .conten-carta {
+  .imagenes-carta {
+    display: none;
+  }
+
+  .remeras, .cerveza-tienda, .gorras {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-  .conten-carta .cabeza-tabla {
-    display: none;
+    flex-wrap: wrap;
   }
 }
 /*tablet*/
@@ -148,13 +165,14 @@ nav li:hover > ul {
     display: none;
   }
 
-  .conten-carta {
+  .imagenes-carta {
+    display: none;
+  }
+
+  .remeras, .cerveza-tienda, .gorras {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-  .conten-carta .cabeza-tabla {
-    display: none;
+    flex-wrap: wrap;
   }
 }
 /*desktop*/
@@ -273,6 +291,78 @@ nav li:hover > ul {
 .conten-carta .productos-1 {
   color: white;
   font-size: 2rem;
+}
+
+.gorras, .cerveza-tienda, .remeras {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/*Estilos de la tienda*/
+.flex-tienda {
+  text-align: center;
+  padding: 10px;
+  width: 100;
+}
+
+.remeras {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.no-me-la-conteiner {
+  width: 100%;
+}
+
+.cerveza-tienda {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.gorras {
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.imagenes-tienda {
+  width: 100%;
+  transition: all 0.8s;
+}
+
+.imagenes-tienda:hover {
+  transform: scale(1.2);
+}
+
+.mensaje {
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-family: open-sans-regular;
+  padding: 1rem;
+}
+
+.parrafo1 {
+  font-family: open-sans-regular;
+  font-size: 2.5rem;
+  color: white;
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: black;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

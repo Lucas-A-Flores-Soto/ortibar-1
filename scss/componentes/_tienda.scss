@@ -1,0 +1,80 @@
+@import "../base/variables";
+@import "../base/extends";
+
+/*Estilos de la tienda*/
+
+.flex-tienda {
+    text-align: center;
+    padding: 10px;
+    width: 100;
+}
+
+.remeras {
+    @extend %flex-box-tienda;
+    background-color: $color-principal;
+    color: $color-secundario;
+    font-size: 1.5rem;
+    
+}
+
+.no-me-la-conteiner {
+ width: 100%;
+}
+
+
+
+
+
+.cerveza-tienda {
+    @extend %flex-box-tienda;
+    background-color: $color-principal;
+    color: $color-secundario;
+    font-size: 1.5rem;
+    width: $ancho
+}
+
+
+.gorras {
+    @extend %flex-box-tienda;
+    background-color: $color-principal;
+    color: $color-secundario;
+    font-size: 1.5rem;
+    width: $ancho;
+    
+  }
+ 
+
+
+
+.imagenes-tienda {
+    width: 100%;
+    transition: all 0.8s;
+}
+
+.imagenes-tienda:hover {
+    transform: scale(1.2);
+}
+
+.mensaje {
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-family: open-sans-regular;
+    padding: 1rem;
+}
+
+.parrafo1 {
+    font-family: open-sans-regular;
+    font-size: 2.5rem;
+    color: $color-secundario;
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: $color-principal;
+    margin-top: 1rem;
+ }
+
+
+
+
+
