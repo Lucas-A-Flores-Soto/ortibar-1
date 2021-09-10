@@ -410,4 +410,19 @@ header {
   margin-top: 1rem;
 }
 
+.boton {
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: solid white;
+}
+.boton:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

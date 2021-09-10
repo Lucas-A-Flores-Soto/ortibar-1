@@ -75,6 +75,21 @@
  }
 
 
-
+.boton {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: solid white;
+    &:hover {
+        transform: scale(1.2);
+        background-color: white;    
+        color: black;
+        
+    }
+}
 
 
